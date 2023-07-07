@@ -8,10 +8,14 @@ Whatever you prefer (e.g. conda or venv)
     cd myproject
     python3 -m venv venv
 
-To activate it in your current shell (Git Bash):
+To activate it (Windows):
 
     . virt/Scripts/activate
 
+To activate it (Mac/Linux):
+
+    . venv/bin/activate
+    
 Change into the outer "crm" directory, if you haven’t already, and run the following commands:
 
     python manage.py runserver
