@@ -1,7 +1,12 @@
 # Django-crm-project
 Customer relationship management web application
 
+Create an environment
+Whatever you prefer (e.g. conda or venv)
 
+    mkdir myproject
+    cd myproject
+    python3 -m venv venv
 
 To activate it in your current shell (Git Bash):
 
